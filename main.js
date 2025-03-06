@@ -1,7 +1,8 @@
 // Позиция коробля
-const location1 = 3;
-const location2 = 4;
-const location3 = 5;
+const randomLoc = Math.floor(Math.random() * 5)           // random pozition
+const location1 = randomLoc;
+const location2 = location1 + 1;
+const location3 = location2 + 1;
 
 // Потопление коробля
 let isSunk = false;
